@@ -252,8 +252,13 @@ section#partners input[type="radio"]:checked + .partners-label {
     background-color: #3d67b0;
 }
 
+section#partners input[type="radio"]:checked ~ .item {
+    transform: translateX(100%);
+}
+
 section#partners input[type="radio"]:checked + .partners-label + .item {
-    transform: translateX(100%)
+    transform: translateX(100%);
+    opacity: 1;
 }
 
 section#partners .partners-label {
