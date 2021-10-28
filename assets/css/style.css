@@ -275,3 +275,28 @@ section#partners #brand-container {
     overflow: hidden;
     position: relative;
 }
+
+section#consultants{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+section#consultants .item{
+    height: 100%;
+    width: 50%;
+}
+
+section#consultants .item .img{
+    height: 200%;
+}
+
+section#consultants .item .item-title{
+    color: #3d67b0;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+section#consultants .item .item-description{
+    margin-top: 5px;
+    font-size: 17px;
+}
