@@ -320,3 +320,9 @@ section#about-segway ol {
 	font-weight: bold;
 	margin-left: 25px;
 }
+
+section#catalog {
+	padding-top: 100px;
+}
+
+section#catalog .categoties{}
